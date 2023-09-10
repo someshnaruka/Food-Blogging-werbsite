@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .footer{
+  margin-top: auto;
+  }
+  
+
+  
+  ::before,
+  ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+  
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    overflow-x: hidden;
+
+  }
+
+  .hero-right{
+    background-image: url("./assets/pizza.png");
+    background-repeat: round;
+  background-size: contain;
+
+  }
+
+  .about-us
+  {
+    background: linear-gradient(90deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+  }
