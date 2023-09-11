@@ -1,4 +1,3 @@
-
 import './App.css';
 import About from './components/About';
 import Carousel from './components/Carousel';

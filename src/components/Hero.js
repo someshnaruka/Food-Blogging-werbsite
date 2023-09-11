@@ -4,7 +4,7 @@ import truck from "../assets/truck.svg";
 function Hero() {
   return (
     <section className="h-screen flex lg:flex-row flex-col-reverse w-full items-center justify-center">
-      <aside className="lg:w-1/2  h-full w-full flex flex-col justify-normal gap-36 items-center lg:px-24  py-6">
+      <aside className="lg:w-1/2  h-full w-full flex flex-col justify-normal gap-16 items-center lg:px-24  py-6">
         <header className="w-full lg:flex mx-6 hidden">
           <img src={truck} alt="logo" className="w-24 h-24  mx-6"></img>
         </header>
@@ -21,7 +21,7 @@ function Hero() {
             Naturally made Healthcare Products for the better care & support of
             your body.
           </p>
-          <button className="bg-[#E23744] text-base mx-6 font-open font-bold px-5 py-3 rounded-3xl text-white">Explore Now!</button>
+          <button className="bg-[#E23744] lg:w-1/3 text-lg mx-6 font-open font-bold px-5 py-3 rounded-3xl text-white">Explore Now!</button>
         </article>
         
       </aside>
